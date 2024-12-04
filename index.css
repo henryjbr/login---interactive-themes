@@ -1,0 +1,99 @@
+.is-light { background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); }
+.is-dark { background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); }
+
+
+
+body{
+    font-family: "Oswald", sans-serif;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    width: 490px;
+    height: 500px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 35px;
+}
+
+main:hover{
+    background-color: rgba(255, 255, 255, 0.918);
+}
+
+form{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    margin-left: 150px;
+}
+
+#nome{
+    margin-left: 150px;
+}
+
+#email{
+    margin-left: 150px;
+}
+
+#senha{
+    margin-left: 150px;
+}
+
+#bt{
+    margin-left: 160px;
+}
+
+input{
+    border-radius: 20px;
+    border: 3px solid #9c9898;
+    height: 30px;
+    width: 150px;
+}
+
+input:hover{
+    background-color: rgba(87, 84, 90, 0.137);
+    border: 3px solid rgb(124, 118, 118);
+}
+
+#bt{
+    border: none;
+    background-color: #9c9898;
+    height: 40px;
+    width: 150px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+#bt:hover{
+    height: 45px;
+    width: 155px;
+    background-color: #3d3c3c85;
+}
+
+div{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.bt2{
+    width: 70px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 10px;
+}
+
+
+#bts {
+    position: relative;
+    top: 30%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
